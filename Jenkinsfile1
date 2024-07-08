@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Test') {
+            steps {
+                echo 'Hello World'
+                sh 'ls'
+                sh 'pwd'
+            }
+        }
+        stage('Validate') {
+            steps {
+                echo 'Hello World'
+                sh 'ls'
+                sh 'pwd'
+            }
+        }
+        stage('Scan') {
+            steps {
+                echo 'Hello World'
+                sh 'ls'
+                sh 'pwd'
+            }
+        }
+        stage('View') {
+            steps {
+                echo 'Hello World'
+                sh 'ls'
+                sh 'pwd'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Hello World'
+                sh 'ls'
+                sh 'pwd'
+            }
+        }
+    }
+}
